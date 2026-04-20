@@ -10,10 +10,6 @@
 
 ---
 
-> **"The ancient hunt for a perfect formal system was not chasing an impossibility — it was asking a slightly wrong question. The right question admits a rigorous, constructive answer."**
->
-> — Tasmai Keni, *The Diagonal Constraint Structure* (2026)
-
 ![DCS/PCS README Cover](images/readme_cover.png)
 
 ---
@@ -71,7 +67,7 @@ The paper demonstrates that the Liar's Paradox, Turing's Halting Problem, and G�
 
 📄 **Preprint (Zenodo):** [https://zenodo.org/records/19660523](https://zenodo.org/records/19660523)
 
-The paper is available at the Zenodo link above. The `.tex` source is not included in this repository; only the computational validation code is hosted here.
+The paper is available at the Zenodo link above.
 
 **Abstract (condensed):** The paper formalises the Diagonal Constraint Structure — a triple of assumptions (Diagonal Closure, Semantic Totality, Universal Domain) whose joint satisfaction, when a negation-complete self-predicate exists, forces any expressive formal system into paradox or undecidability. It proves that the Liar's Paradox and Halting Problem are isomorphic instantiations of DCS Instability (Theorem 1), while Gödel's First Incompleteness Theorem is the adjacent case where the negation-complete condition fails internally, yielding incompleteness rather than outright paradox. A complete taxonomy of six canonical bypass operators is constructed and proved exhaustive (Theorem 4). These bypasses are synthesised into the Practically Complete System (PCS), which is proved to be consistent, grounded-complete (including all true Π₁ arithmetic sentences), and equipped with a partial decision procedure, while not violating Gödel's theorems.
 
